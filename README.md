@@ -13,7 +13,7 @@ $ pip install awscli
 2. Sync project folder with s3 bucket (run from root website directory) and 
 
 ```
-$ aws s3 sync --acl public-read --sse --delete . s3://scottcbishop.com
+$ aws s3 sync --acl public-read --sse --delete . s3://scottcbishop.com --exclude '.git/*' --exclude "README.md" --exclude ".DS_Store"
 ```
 
 3. Invalidate cloudfront cache so changes are reflected correctly.
