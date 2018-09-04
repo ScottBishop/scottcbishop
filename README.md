@@ -1,1 +1,1 @@
-Simple developer website for [scottcbishop.com](https://scottbishop.github.io/scottcbishop/)
+Simple developer website for [scottcbishop.com](https://scottbishop.com)
