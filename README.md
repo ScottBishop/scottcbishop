@@ -6,7 +6,9 @@
 
 1. Install aws command line client (if not already installed)
 
-`$ pip install awscli`
+```
+$ pip install awscli
+```
 
 2. Sync project folder with s3 bucket (run from root website directory) and 
 
